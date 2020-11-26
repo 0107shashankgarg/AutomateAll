@@ -1,0 +1,117 @@
+{
+  "statistic" : {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 7,
+    "unknown" : 0,
+    "total" : 7
+  },
+  "time" : {
+    "minDuration" : 0,
+    "maxDuration" : 21,
+    "sumDuration" : 24,
+    "start" : 1606315484963,
+    "stop" : 1606315485105,
+    "duration" : 142
+  },
+  "children" : [ {
+    "uid" : "14a4781edb39f51c",
+    "name" : "ui.TestLogin",
+    "time" : {
+      "minDuration" : 0,
+      "maxDuration" : 21,
+      "sumDuration" : 24,
+      "start" : 1606315484963,
+      "stop" : 1606315485105,
+      "duration" : 142
+    },
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 7
+    },
+    "type" : "TestGroupNode",
+    "children" : [ {
+      "uid" : "3c7ebc5313078b2a",
+      "name" : "m",
+      "time" : {
+        "start" : 1606315485105,
+        "stop" : 1606315485105,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "flaky" : true,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "b5039580bbdacbd1",
+      "name" : "dataprovMultiple",
+      "time" : {
+        "start" : 1606315485096,
+        "stop" : 1606315485097,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "flaky" : true,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "ccea940c3198ac07",
+      "name" : "dataprov",
+      "time" : {
+        "start" : 1606315485087,
+        "stop" : 1606315485088,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "flaky" : true,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "780f0bbe95a12f15",
+      "name" : "dataprov",
+      "time" : {
+        "start" : 1606315484963,
+        "stop" : 1606315484984,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "flaky" : true,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "fb85f3594583f85",
+      "name" : "dataprovMultiple",
+      "time" : {
+        "start" : 1606315485092,
+        "stop" : 1606315485093,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "flaky" : true,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "a1ff33da78c37292",
+      "name" : "dataprovSingle",
+      "time" : {
+        "start" : 1606315485100,
+        "stop" : 1606315485100,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "flaky" : true,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "c551f441f02d6157",
+      "name" : "dataprovSingle",
+      "time" : {
+        "start" : 1606315485102,
+        "stop" : 1606315485102,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "flaky" : true,
+      "type" : "TestCaseNode"
+    } ]
+  } ]
+}

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite2" verbose="1">
+	<groups>
+		<run>
+			<include name="*"/> <!--applied al suite level -->
+		</run>
+		<dependencies>
+			<group name="login" depends-on="openbrowser"></group>
+		</dependencies>
+	</groups>
+	<listeners>
+		<listener class-name="testlistners.TestListnerTestNG"></listener>
+		<listener class-name="testlistners.ExecutionListenerTestNG"></listener>
+	</listeners>
+	<test name="all-tests">
+		<groups>
+			<run>
+			</run>
+		</groups>
+		<packages>
+			<package name="ui"/>
+			<package name="api"/>
+		</packages>
+		<classes>
+		</classes>
+	</test>
+</suite>

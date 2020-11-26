@@ -1,0 +1,74 @@
+{
+  "uid" : "3c7ebc5313078b2a",
+  "name" : "m",
+  "fullName" : "ui.TestLogin.m",
+  "historyId" : "eec1cef14f937394df03aece14e8806c",
+  "time" : {
+    "start" : 1606315485105,
+    "stop" : 1606315485105,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : true
+  },
+  "description" : "Test Description: Login test with wrong username and wrong password.",
+  "descriptionHtml" : "<p>Test Description: Login test with wrong username and wrong password.</p>",
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ui.TestLogin"
+  }, {
+    "name" : "testClass",
+    "value" : "ui.TestLogin"
+  }, {
+    "name" : "testMethod",
+    "value" : "m"
+  }, {
+    "name" : "parentSuite",
+    "value" : "User acceptance TestSuite"
+  }, {
+    "name" : "suite",
+    "value" : "Expense Tracker Validattion"
+  }, {
+    "name" : "subSuite",
+    "value" : "ui.TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "shashankgarg"
+  }, {
+    "name" : "thread",
+    "value" : "1556@shashankgarg.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9c8ab1ad2f6ea2fc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604820339535,
+        "stop" : 1604820339535,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e846b0976e39a8dc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604343022502,
+        "stop" : 1604343022503,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ ]
+  }
+}

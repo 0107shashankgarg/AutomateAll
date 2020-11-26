@@ -1,0 +1,78 @@
+{
+  "uid" : "fb85f3594583f85",
+  "name" : "dataprovMultiple",
+  "fullName" : "ui.TestLogin.dataprovMultiple",
+  "historyId" : "af4ae520e81148d757376c758f6083c6",
+  "time" : {
+    "start" : 1606315485092,
+    "stop" : 1606315485093,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : true
+  },
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ui.TestLogin"
+  }, {
+    "name" : "testClass",
+    "value" : "ui.TestLogin"
+  }, {
+    "name" : "testMethod",
+    "value" : "dataprovMultiple"
+  }, {
+    "name" : "parentSuite",
+    "value" : "User acceptance TestSuite"
+  }, {
+    "name" : "suite",
+    "value" : "Expense Tracker Validattion"
+  }, {
+    "name" : "subSuite",
+    "value" : "ui.TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "shashankgarg"
+  }, {
+    "name" : "thread",
+    "value" : "1556@shashankgarg.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  } ],
+  "parameters" : [ {
+    "name" : "arg1",
+    "value" : "[2, 3, 4]"
+  }, {
+    "name" : "arg0",
+    "value" : "1"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "58e8e7ec27cba3e6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604820339522,
+        "stop" : 1604820339522,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "1ebc18bf4006316d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604343022487,
+        "stop" : 1604343022488,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ ]
+  }
+}
