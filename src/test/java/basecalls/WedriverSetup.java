@@ -23,7 +23,7 @@ import java.net.URL;
 
 import static com.codeborne.selenide.WebDriverRunner.getWebDriver;
 
-public class WedriverSetup {
+ class WedriverSetup {
 
     private static final Logger LOG = LogManager.getLogger(WedriverSetup.class);
 
@@ -55,19 +55,17 @@ public class WedriverSetup {
         Configuration.screenshots = false;
         Configuration.timeout = TIMEOUT;
         WebDriver webDriver;
-        if (cfg.isRemote()) {
-            webDriver = initRemoteDriver(browser, true);
-        } else {
+
             DesiredCapabilities capabilities = new DesiredCapabilities(browser, "", Platform.ANY);
             //TODO add more browsers
             ChromeOptions chromeOptions = new ChromeOptions();
             chromeOptions.merge(capabilities);
             webDriver = new ChromeDriver(chromeOptions);
-        }
+
         WebDriverRunner.setWebDriver(webDriver);
     }
 
-    private RemoteWebDriver initRemoteDriver(String browser, boolean retryIfError) {
+   /* private RemoteWebDriver initRemoteDriver(String browser, boolean retryIfError) {
         DesiredCapabilities capability = new DesiredCapabilities();
         capability.setBrowserName(browser);
        // capability.setCapability("name", testName);
@@ -86,11 +84,11 @@ public class WedriverSetup {
                 } else {
                     throw new IllegalStateException("Remote session is die");
                 }
-            }
+            }*//**//*
         } catch (MalformedURLException e) {
             throw new IllegalStateException("Error while configuring url for remote web driver");
         }
-    }
+    }*/
 
     private boolean isAlive(WebDriver driver) {
         try {

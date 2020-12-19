@@ -11,7 +11,8 @@ package ui;
 
 
 
-import com.sun.javafx.scene.control.Logging;
+import basecalls.UIBase;
+import basecalls.Wedriver4Setup;
 import io.qameta.allure.Description;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -21,7 +22,7 @@ import dataproviders.*;
 
 
 
-public class TestLogin {
+public class TestLogin  extends Wedriver4Setup {
 
     private static final Logger LOG = LogManager.getLogger(TestLogin.class);
 
@@ -62,6 +63,12 @@ public class TestLogin {
              ) {
             System.out.println(ele);
         }
+    }
+
+    @Test
+    public void siren()
+    {
+
     }
 }
 

@@ -46,7 +46,7 @@ public class PageUtils extends BasePage {
     }
 
     public static boolean checkJsErrors(Logger log) {
-        List<LogEntry> listErrors = getWebDriver().manage().logs().get(LogType.BROWSER).filter(Level.SEVERE);
+        List<LogEntry> listErrors = getWebDriver().manage().logs().get(LogType.BROWSER).getAll();
 
        if(cfg.isSuppressKnownIssues())
             listErrors = getErrorListAfterIgnoringResourceError(listErrors);
